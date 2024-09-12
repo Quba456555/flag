@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(4, 64, 29); /* Zielone tło strony */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.flag {
+  height: 200px;
+  width: 400px;
+}
+
+.francja {
+  background: linear-gradient(
+    to right,
+    blue 33.33%,
+    white 33.33% 66.66%,
+    red 66.66%
+  );
+}
+
+.niemcy {
+  background: linear-gradient(
+    to bottom,
+    black 33.33%,
+    red 33.33% 66.66%,
+    yellow 66.66%
+  );
+}
+
+.holandia {
+  background: linear-gradient(
+    to bottom,
+    red 33.33%,
+    white 33.33% 66.66%,
+    blue 66.66%
+  );
+}
+
+.rosja {
+  background: linear-gradient(
+    to bottom,
+    white 33.33%,
+    blue 33.33% 66.66%,
+    red 66.66%
+  );
+}
+
+.polska {
+  background: linear-gradient(to bottom, white 50%, red 50%);
+}
